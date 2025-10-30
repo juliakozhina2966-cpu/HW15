@@ -1,4 +1,8 @@
+"""This file defines the function for the most efficient cuts."""
+
+
 def rod_cutting(prices, n):
+    """Return the the best rod cutting."""
     dp = [0] * (n + 1)
     cut = [0] * (n + 1)
 
